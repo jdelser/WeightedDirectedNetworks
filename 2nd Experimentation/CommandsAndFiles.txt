@@ -1,0 +1,11 @@
+Los nuestros: 
+
+./benchmark -N 100 -k 15 -maxk 40 -muw 0.1 -minc 5 -maxc 20 
+./benchmark -N 200 -k 15 -maxk 40 -muw 0.1 -minc 5 -maxc 20 
+./benchmark -N 300 -k 15 -maxk 40 -muw 0.2 -minc 10 -maxc 25 
+./benchmark -N 400 -k 15 -maxk 40 -muw 0.2 -minc 15 -maxc 30 
+./benchmark -N 500 -k 15 -maxk 40 -muw 0.2 -minc 15 -maxc 30 
+
+
+1) network.dat contains the list of edges (nodes are labelled from 1 to the number of nodes; the edges are ordered and repeated once, i.e. source-target), with the relative weight.
+2) community.dat contains a list of the nodes and their membership (memberships are labelled by integer numbers >=1).
